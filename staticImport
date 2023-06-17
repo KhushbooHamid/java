@@ -1,0 +1,9 @@
+import static java.lang.System.*;
+class staticImport{
+    public static void main(String []args)
+    {
+        out.println("static import example");
+                out.println("khushboo hamid");
+
+    }
+}
