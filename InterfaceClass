@@ -1,0 +1,32 @@
+interface InterfaceClass {
+    void fx1();
+    void fx2();
+    void fx3();
+}
+
+class derived implements InterfaceClass {
+     public void fx1()
+    {
+        System.out.println("hi i am over ridden fxn1");
+    }
+     public void fx2()
+    {
+        System.out.println("hi i am over ridden fxn2");
+    }
+    public void fx3()
+    {
+        System.out.println("hi i am over ridden fxn3");
+    }
+}
+class Main{
+    public static void main(String []args)
+    {
+        
+        derived d=new derived();
+        d.fx1();
+        d.fx2();
+        d.fx3();
+        System.out.println("khushboo hamid | cse-20-01");
+
+    }
+}
