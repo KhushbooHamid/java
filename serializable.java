@@ -15,7 +15,7 @@ class student implements Serializable {
     }
 }
 
-public class main {
+public class serializable {
     public static void sdetails(student s1) {
         System.out.println("name =" + s1.str);
         System.out.println("marks =" + s1.marks);
